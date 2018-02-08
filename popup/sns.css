@@ -1,0 +1,21 @@
+
+.hidden {
+  display: none;
+}
+
+.button {
+  margin: 3% auto;
+  padding: 4px;
+  text-align: center;
+  font-size: 1.5em;
+  font-style: oblique;
+  cursor: pointer;
+}
+
+.social:hover {
+  background-color: #CFF2F2;
+}
+
+.social {
+  background-color: #E5F2F2;
+}

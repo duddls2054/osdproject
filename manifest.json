@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "sns",
+  "version": "1.0",
+
+  "description": "sns",
+
+  "icons": {
+    "48": "icon/cropped-sns-icon.png"
+  },
+
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "icon/cropped-sns-icon.png",
+    "theme_icons": [{
+        "light": "icon/cropped-sns-icon.png",
+        "dark": "icon/cropped-sns-icon.png",
+        "size": 32
+    }],
+    "default_title": "SNS",
+    "default_popup": "popup/sns.html"
+  }
+}
